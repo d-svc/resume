@@ -1,0 +1,153 @@
+.contact-component {
+
+.contact-title {
+    font-family: var(--primary-font-family);
+    font-style: normal;
+    font-weight: 500;
+
+    @media screen and (max-width: 648px) {
+      text-align: center;
+    }
+}
+
+.contact-p {
+    font-family: var(--primary-font-family);
+    font-style: normal;
+    font-weight: 200;
+    color: var(--dark-color);
+
+    @media screen and (max-width: 648px) {
+      text-align: center;
+    }
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+}
+
+.button-text {
+    font-family: var(--primary-font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 40px;
+    background: var(--dark-color);
+    border-radius: 80px;
+    width: 212px;
+    transition: .25s all;
+}
+
+
+.button-text:hover {
+    background: #353434;
+
+}
+
+.dribbble {
+    display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background: #F4F7F6;
+    width: 51px;
+    height: 51px;
+}
+
+.dribbble:hover {
+    background: #E84C88;
+}
+
+.behance {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background: #F4F7F6;
+    width: 51px;
+    height: 51px;
+}
+
+.behance:hover {
+    background: #0057FF;
+}
+
+
+.linkedin {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background: #F4F7F6;
+    width: 51px;
+    height: 51px;
+}
+
+.linkedin:hover {
+    background: #0B66C3;
+}
+
+.contact-options {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 25px;
+
+
+    @media screen and (max-width: 648px) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+
+    &-links {
+      display: flex;
+      flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 25px;
+
+    a {
+      transition: .25s all;
+
+      & img {
+       transition: .25s all;
+      }
+
+      &:hover {
+            img {
+        filter: invert(100%);
+    }
+
+      }
+    }
+    }
+}
+
+.contact-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4.5rem 3.5rem;
+    gap: 5.1rem;
+    background: #F1F1F1;
+    border-radius: 20px;
+    margin-top: var(--large-gap);
+    margin-bottom: var(--large-gap);
+}
+}
