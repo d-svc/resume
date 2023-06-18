@@ -8,7 +8,7 @@ export function MoreProjects ({ currentId }: { currentId: number }) {
 
   return <div className="more-projects">
     <h3 className="more-projects-title">
-      More UI design projects
+      More design projects
     </h3>
     <div className="more-projects-list">
       {ptojectShow.slice(0, 3).map((proj: IProject) => {

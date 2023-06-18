@@ -32,9 +32,9 @@ export function Home (): JSX.Element {
       <div className="container" id="about">
         <div className="experience ">
           <h2 className="title">My experience </h2>
-          <p className="text-desc h4-text">Lorem ipsum dolor sit amet consectetur. Mauris libero pellentesque faucibus integer. At
-            integer eget at magna. At sit praesent ultrices ullamcorper sed ultrices placerat. Commodo et diam ultrices
-            mi massa sapien purus duis. Volutpat a morbi arcu tempus semper velit velit.</p>
+          <p className="text-desc h4-text">
+          I have extensive experience as a UI/UX Designer and Graphic Designer, adept at conducting UX research, wireframing, and prototyping. At Diya Vision, I successfully redesigned a charitable foundation's website, resulting in increased adoptions and improved user engagement. As a Graphic Designer at Improve Yourself Weekend, I created visually compelling designs for social media and print materials. Additionally, as a Project Manager at Newverest, I led cross-functional teams, designed products, and optimized Amazon listings. With a strong skill set and a track record of delivering high-quality designs, I bring valuable expertise in creating exceptional user experiences and managing projects efficiently.
+            </p>
         </div>
       </div>
       <div className="container">
@@ -65,9 +65,9 @@ export function Home (): JSX.Element {
       <div className="container" id='education'>
         <div className="education ">
           <h2 className="title">My education </h2>
-          <p className="text-desc h4-text">Lorem ipsum dolor sit amet consectetur. Mauris libero pellentesque faucibus integer. At
-            integer eget at magna. At sit praesent ultrices ullamcorper sed ultrices placerat. Commodo et diam ultrices
-            mi massa sapien purus duis. Volutpat a morbi arcu tempus semper velit velit.</p>
+          <p className="text-desc h4-text">
+          I constantly pursue learning opportunities to enhance my skills in UI/UX design. At Beetroot Academy I acquired in-depth knowledge of Figma and learned effective competitor analysis and user research techniques. Demonstrating a strong understanding of design principles and current trends, I collaborated with team members to ideate, iterate, and refine design solutions. Additionally, my Bachelor's degree in Software Engineering has provided me with valuable knowledge of the limitations and capabilities of the technologies I work with. This background aids me in creating user experiences that are both seamless and efficient. Alongside my education, I have earned certificates in Graphic Design, Figma Autolayout Workshop, and Dare IT: Design Challenge, further showcasing my commitment to continuous growth and development.
+            </p>
         </div>
       </div>
       <div className="container">

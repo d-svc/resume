@@ -16,10 +16,10 @@ export function Contact () {
           <a className="button-text" href="mailto:goncharuk12388@gmail.com">Contact me</a>
         </div>
         <div className="contact-options-links">
-          <a href="https://dribbble.com/" className="dribbble">
+          <a href="https://dribbble.com/dsvc" className="dribbble">
             <img src={dribbleImage} className="dribbble-icon" />
           </a>
-          <a href="https://www.behance.net/daryasvc" className="behance">
+          <a href="https://www.behance.net/dariahoncharuk" className="behance">
             <img src={behanceImage} className="behance-icon" />
           </a>
           <a href="https://www.linkedin.com/in/daryasvc/" className="linkedin">

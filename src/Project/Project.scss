@@ -9,7 +9,6 @@ $mockBackground: #F1F1F1;
     &-hero {
       background: $mockBackground;
       width: 100%;
-      border-radius: 20px;
       overflow: hidden;
 
       img {
@@ -38,7 +37,6 @@ $mockBackground: #F1F1F1;
   &-content {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
     margin-bottom: var(--medium-gap);
   }
 
@@ -46,6 +44,7 @@ $mockBackground: #F1F1F1;
               font-family: var(--primary-font-family);
           color: var(--dark-color);
           font-size: 1.5rem;
+          margin: 1rem 0;
           font-weight: 200;
           line-height: 2.0625rem;
 
@@ -54,10 +53,20 @@ $mockBackground: #F1F1F1;
 
   .image-content {
     width: 100%;
+    margin: -1px 0;
 
     img {
       width: 100%;
       object-fit: cover;
+    }
+  }
+
+  .video-content {
+    width: 100%;
+
+    video {
+      width: 100%;
+      object-fit: contain;
     }
   }
 

@@ -12,6 +12,12 @@ function ImageContent ({ content }: { content: string }) {
   </div>
 }
 
+function VideoContent ({ content }: { content: string }) {
+  return <div className="video-content">
+    <video autoPlay muted controls src={process.env.PUBLIC_URL + content}/>
+  </div>
+}
+
 function TextContent ({ content }: { content: string }) {
   return <p className="text-content h3-text">
     {content}
@@ -29,12 +35,6 @@ export function Project () {
     <div className="project-component-hero">
       <img src={process.env.PUBLIC_URL + content.heroImage} alt="" />
     </div>
-    <div className="project-component-about">
-      <h2 className='about-title'>
-        About project
-      </h2>
-      <p className='about-text h3-text'>{content?.about}</p>
-    </div>
     <div className="project-component-content">
 
       {content?.items?.map(({ content, type }: { content: string, type: string }, index) => {
@@ -45,6 +45,9 @@ export function Project () {
 
         if (type === 'text') {
           return <TextContent content={content} key={index} />
+        }
+        if (type === 'video') {
+          return <VideoContent content={content} key={index} />
         }
       })}
 

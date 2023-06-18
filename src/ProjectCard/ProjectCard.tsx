@@ -35,10 +35,10 @@ export function ProjectCard ({ project }: CardProps): JSX.Element {
         ? <img src={process.env.PUBLIC_URL + imgUrl} alt="" />
         : <></>}
     </div>
-    <p className="project-card-name h3-text">
+    <p className="project-card-name h4-text">
       {name}
     </p>
-    <p className="project-card-category h3-text">
+    <p className="project-card-category h4-text">
       {category}
     </p>
   </button>
