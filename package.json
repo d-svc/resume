@@ -2,7 +2,7 @@
   "name": "porfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/d-svc/resume.git",
+  "homepage": "https://d-svc.github.io/resume",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
