@@ -270,6 +270,10 @@ export const projects = [
                   {
                     type: 'image',
                     content: '/project-images/dailyui-06.png'
+                  },
+                  {
+                    type: 'video',
+                    content: '/project-images/dailyui06.mov'
                   }
                 ]
               }
