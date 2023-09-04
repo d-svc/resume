@@ -33,7 +33,7 @@ export function Project () {
   return <div className="project-component container">
 
     <div className="project-component-hero">
-      <img src={process.env.PUBLIC_URL + content.heroImage} alt="" />
+      {content.heroImage ? <img src={process.env.PUBLIC_URL + content.heroImage} alt="" /> : ''}
     </div>
     <div className="project-component-content">
 
