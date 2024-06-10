@@ -42,6 +42,9 @@ export function Project () {
         if (type === 'image') {
           return <ImageContent content={content} key={index} />
         }
+        if (type === 'embeded') {
+          return <div key={index} dangerouslySetInnerHTML={{__html: content}} ></div>
+        }
 
         if (type === 'text') {
           return <TextContent content={content} key={index} />

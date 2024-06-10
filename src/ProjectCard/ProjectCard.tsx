@@ -3,7 +3,7 @@ import './ProjectCard.scss'
 import { useNavigate } from 'react-router-dom'
 
 export interface ContentModel {
-  heroImage?: string
+  heroImage?: string;
   about?: string
   items?: Array<{ type: string, content: string }>
   cardImage?: string
